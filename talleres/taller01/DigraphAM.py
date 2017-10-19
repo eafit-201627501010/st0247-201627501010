@@ -1,5 +1,5 @@
 import numpy
- # David Sanchez y Estefania Zapata
+ #author David Sanchez - Jacobo Henao - Estefania Zapata
 class digraphAM:
 
     def __init__(self,size):
