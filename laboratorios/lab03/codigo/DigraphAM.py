@@ -2,16 +2,16 @@ import numpy
 
   #  @class digraphAl
   #  Descripcion: implementacion  grafo  matrices.
-  #  @author David Sanchez Arboleda  - Estefania Zapata
+  #  @author David Sanchez Arboleda  - Estefania Zapata - Jacobo Henao Henao
   #  @version 1.0
 
 
 clase  digraphAM :
 
-    def  __init__ ( auto , tamaño ):
-        auto . tamaño = tamaño
+    def  __init__ ( auto , tamaÃ±o ):
+        auto . tamaÃ±o = tamaÃ±o
        
-        self .matriz = numpy.zeros ( forma = (tamaño + 1 , tamaño + 1 ))
+        self .matriz = numpy.zeros ( forma = (tamaÃ±o + 1 , tamaÃ±o + 1 ))
 
 
     def  add_arc ( self , source , destination , weight = 1 ):
@@ -19,19 +19,19 @@ clase  digraphAM :
         self .matriz [fuente, destino] = peso
 
 
-    def  get_successors ( self , vértice ):
+    def  get_successors ( self , vÃ©rtice ):
     	# Creo una lista
         sucesores = []
-        # Recorre  los vértices de la fila cero
-        para i en el  rango ( auto. tamaño + 1 ):
-        	# Si el vértice especificado tiene un peso diferente de 0 con el vértice de la fila significa que hay un arco entre dichos
-            si  self .matriz [vértice, i] ! =  0 :
-            	# AgregAR el vértice con que se encuentra el arco a la lista
+        # Recorre  los vÃ©rtices de la fila cero
+        para i en el  rango ( auto. tamaÃ±o + 1 ):
+        	# Si el vÃ©rtice especificado tiene un peso diferente de 0 con el vÃ©rtice de la fila significa que hay un arco entre dichos
+            si  self .matriz [vÃ©rtice, i] ! =  0 :
+            	# AgregAR el vÃ©rtice con que se encuentra el arco a la lista
                 successors.append (i)
         # retornAR lista
         retorno sucesores
 
 
     def  get_weight ( self , source , destination ):
-    	# RetornAR  peso que se encuentra en la posición de la matriz dada por LOS vértices
+    	# RetornAR  peso que se encuentra en la posiciÃ³n de la matriz dada por LOS vÃ©rtices
         return  self .matriz [fuente] [destino]
