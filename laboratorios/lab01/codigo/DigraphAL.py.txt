@@ -1,7 +1,7 @@
 
    # @clase digraphAl
    # Descripcion: implementacr grafo con listas
-   # @author David Sanchez Arboleda / Estefania Zapata
+   # @author David Sanchez Arboleda / Estefania Zapata / Jacobo Henao 
    # @version 1.0
 
 
@@ -12,11 +12,11 @@ class digraphAL:
         self.size=size
         #Crear una lista
         self.lista=[]
-        #Recorro de la posicion cero a el tamaño asignado creando listas en cada posicion
+        #Recorro de la posicion cero a el tamaÃ±o asignado creando listas en cada posicion
         for i in range(size+1): self.lista.append([])
 
     def add_arc(self,source,destination,weight=1):
-        #Añadir una tupla en el vertice asignado que contiene el vertice adyacente con el peso de la arista que por defecto es 1
+        #AÃ±adir una tupla en el vertice asignado que contiene el vertice adyacente con el peso de la arista que por defecto es 1
         self.lista[source].append((destination,weight))
 
  
@@ -25,7 +25,7 @@ class digraphAL:
         successors=[]
         #Recorrido de la lista del vertice especificado
         for i in range(len(self.lista[vertex])):
-            #Añadir a la lista creada todos los vertices adyacientes al vertice especificado
+            #AÃ±adir a la lista creada todos los vertices adyacientes al vertice especificado
             successors.append(self.lista[vertex][i][0])
         #Retorno la lista creada
         return successors
