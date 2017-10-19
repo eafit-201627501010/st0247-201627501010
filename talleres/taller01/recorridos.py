@@ -1,5 +1,5 @@
 import DigraphAL
-# David Sanchez y Estefania Zapata
+# David Sanchez Jacobo Henao Estefania Zapata
 
 grafo_lista = DigraphAL.digraphAL(11)
 grafo_lista.add_arc(5,11)
