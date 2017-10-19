@@ -4,7 +4,7 @@ from collections import defaultdict
 
    # @archivo GraphAlgorithms
    # Descripcion: implementacion algoritmos para probar en grafos.
-   # @author David Sanchez Arboleda / Estefania Zapata
+   # @author Jacobo Henao Henao /  David Sanchez Arboleda / Estefania Zapata
    # @version 1
 
 
