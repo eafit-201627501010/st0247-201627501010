@@ -1,7 +1,7 @@
 """
     @clase grafoMedellin
     Descripcion: Implementacion de grafo utilizando diccionario de lista de pares
-    @author David Sanchez Arboleda y Estefania zapata
+    @author Jacobo Henao / David Sanchez Arboleda / Estefania zapata
     @version 1
 """
 
@@ -33,5 +33,5 @@ class grafoMedellin:
             for line in f:
                 #Creo un arreglo que almacene cada string separado por un espacio en la linea
                 a=line.split(" ")
-                #Añado en el vertice asignado una tupla que contiene el vertice adyacente y peso del arco
+                #AÃ±ado en el vertice asignado una tupla que contiene el vertice adyacente y peso del arco
                 self.grafo[a[0]].append((a[1],a[2]))
