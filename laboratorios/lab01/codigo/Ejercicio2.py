@@ -2,7 +2,7 @@ import DigraphAM
 
    # @clase Ejercicio2
     #Descripcion: implementacion de metodo para colorear grafo.
-    # @author David Sanchez Arboleda / Estefania Zapata
+    # @author Jacobo Henao / David Sanchez Arboleda / Estefania Zapata
   #  @version 1
 
 
