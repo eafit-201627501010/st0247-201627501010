@@ -2,7 +2,7 @@ import numpy
 
    # @clase digraphAl
    # Descripcion: implementacion de grafo con matrices.
-   # @author David Sanchez Arboleda &  Estefania Zapata
+   # @author Jacobo Henao - David Sanchez Arboleda - Estefania Zapata
    # @version 1.0
 
 
