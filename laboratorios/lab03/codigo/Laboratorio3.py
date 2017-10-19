@@ -1,11 +1,11 @@
 
  #   @clase laboratorio3
   #  Descripcion: Puntos del laboratorio 3
-   # @author Estefania Zapata y David Sanchez Arboleda
-    #@versiÛn 1.0
+   # @author Estefania Zapata, David Sanchez Arboleda, Jacobo Henao
+    #@versi√≥n 1.0
 
 importar DigraphAL, DigraphAM
-cola de importaciÛn , matem·ticas
+cola de importaci√≥n , matem√°ticas
 
 # Generamos un grafo de matriz y lo llenamos
 gmatriz = DigraphAM.digraphAM ( 11 )
@@ -64,8 +64,8 @@ def  puedo_poner_reina ( r , tablero ):
             retorno  falso
     devuelve  verdadero
 
-def  punto1_5 ( gr·fico ):
-    grafo = transformar_grafo (gr·fico)
+def  punto1_5 ( gr√°fico ):
+    grafo = transformar_grafo (gr√°fico)
     llaves = grafo.keys ()
     # recorremos todas las llaves
     para i en teclas:
@@ -79,11 +79,11 @@ def  punto1_5 ( gr·fico ):
 
    
 
-def  transformar_grafo ( gr·fico ):
+def  transformar_grafo ( gr√°fico ):
     grafo = {}
     para i en el  rango (graph.size + 1 ):
         sucesores = graph.get_successors (i)
-        # recorremos el tamaÒo del grafo creando llaves con listas en un diccionario
+        # recorremos el tama√±o del grafo creando llaves con listas en un diccionario
         grafo [i] = []
         para k en  rango ( len (sucesores)):
             # por cada llave agregamos una lista de sus sucesores
@@ -99,7 +99,7 @@ def  punto1_3 ( grafo , inicial ):
   recorrido.append (inicial)
   mientras que  no es q.empty ():
     actual = q.get ()
-    # Mientras la cola no est· vacÌa se revisar· cada vÈrtice sucesor del vÈrtice atual
+    # Mientras la cola no est√° vac√≠a se revisar√° cada v√©rtice sucesor del v√©rtice atual
     # si este no se encunetra en el recorrido se agrega
     para i en grafo.get_successors (actual):
       Si i no  en el Recorrido:
@@ -151,7 +151,7 @@ def  punto2aux ( grafo , k , nodo , costo , recorrido ):
     para i en kk:
       peso = grafo.get_weight (k, i) + costo [k]
       si costo [i] > peso:
-        si k no est·  en recorrido:
+        si k no est√°  en recorrido:
           recorrido.append (k)
         costo [i] = peso
       mas :
