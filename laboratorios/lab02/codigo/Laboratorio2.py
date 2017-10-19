@@ -1,7 +1,7 @@
 
    # @clase laboratorio2
    # Descripcion: Punto 1.1 del laboratorio 2
-   # @author David Sanchez Arboleda y Estefania Zapata
+   # @author David Sanchez Arboleda - Estefania Zapata - Jacobo Henao
    # @version 1
 
 
